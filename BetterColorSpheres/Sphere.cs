@@ -29,9 +29,7 @@ namespace ColorSpheres
             }
 
         }
-        public int GetTimesThrown()
-        {
-            return _bounces;
-        }
+        public int GetTimesThrown => _bounces;
+
     }   
 }
