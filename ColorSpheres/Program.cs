@@ -10,7 +10,7 @@ namespace ColorSpheres
 
         private static void Main(string[] args)
         {   
-            Color sphereC = new Color(222, 142, 123, 100);
+            Color sphereC = new Color(222, 142, 123);
             Sphere sphere = new Sphere(4.0f, sphereC);
 
             sphere.Throw();
