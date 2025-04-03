@@ -14,6 +14,12 @@ namespace PlayerStats
         private float highScore;
         private int playedGames;
         private int wonGames;
+        public string Name;
+
+        public Player(string Name)
+        {
+            this.Name = Name;
+        }
 
         public float HighScore
         {
@@ -21,7 +27,6 @@ namespace PlayerStats
             set {if (value > highScore) highScore = value;}
         }
     
-        public string Name { get; }
 
         public float WinRate
         {
