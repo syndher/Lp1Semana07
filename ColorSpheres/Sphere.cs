@@ -17,5 +17,21 @@ namespace ColorSpheres
             this.color = color;
             _bounces = 0;
         }
+        public void pop()
+        {
+            _radius = 0;
+        }
+        public void Throw()
+        {
+            if (_radius > 0)
+            {
+                _bounces++;
+            }
+
+        }
+        public int GetTimesThrown()
+        {
+            return _bounces;
+        }
     }   
 }
