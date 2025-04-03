@@ -17,7 +17,7 @@ namespace ColorSpheres
             this.color = color;
             _bounces = 0;
         }
-        public void pop()
+        public void Pop()
         {
             _radius = 0;
         }

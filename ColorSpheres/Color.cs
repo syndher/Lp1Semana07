@@ -5,21 +5,13 @@
 namespace ColorSpheres
 {
 
-    public class Color
+    public class Color(byte red, byte green, byte blue, byte alpha)
     {
-        byte _red;
-        byte _green;
-        byte _blue;
-        byte _alpha;
-    
-        public Color(byte red, byte green, byte blue, byte alpha)
-        {
-        _red = red;
-        _green = green;
-        _blue = blue;
-        _alpha = 255;
-        }
-        
+        private byte _red = red;
+        private byte _green = green;
+        private byte _blue = blue;
+        private byte _alpha = 255;
+
         public byte GetRed()
         {
             return _red;
