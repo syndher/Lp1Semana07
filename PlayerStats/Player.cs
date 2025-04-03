@@ -2,6 +2,7 @@
 using System.Dynamic;
 using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
+using System.Xml.XPath;
 
 
 
@@ -32,7 +33,14 @@ namespace PlayerStats
                     return (float)wonGames / playedGames;
             }
         }
-
+        public void PlayGame(bool win)
+        {
+            playedGames++;
+            if (win == true)
+            {
+                wonGames++;
+            }
+        }
 
     }
 }
