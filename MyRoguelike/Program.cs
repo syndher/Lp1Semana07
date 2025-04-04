@@ -11,12 +11,12 @@ namespace MyRoguelike
         {
             Hero hero = new Hero(30, 70, "john");
                 
-                Console.WriteLine($"The hero has {hero.GetXp} xp, {hero.MaxHealth} health, and his name is {hero.GetName}");
+                Console.WriteLine($"The hero has {hero.Level} xp, {hero.MaxHealth} health, and his name is {hero.GetName}");
 
-                hero.XP(30);
-                hero.TakeDamage(20);
+                hero.XP(1000);
+                hero.TakeDamage(10);
                 
-                Console.WriteLine($"The hero has {hero.GetXp} xp, {hero.MaxHealth} health, and his name is {hero.GetName}");
+                Console.WriteLine($"The hero has {hero.Level} xp, {hero.MaxHealth} health, and his name is {hero.GetName}");
                 
         }
     }
