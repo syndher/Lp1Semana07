@@ -17,7 +17,7 @@ namespace ColorSpheres
             sphere.Throw();
             sphere.Pop();
 
-            Console.WriteLine($"The sphere has bounced {sphere.GetTimesThrown()} times,its color is {sphereC.GetGrey()}");
+            Console.WriteLine($"The sphere has bounced {sphere.GetTimesThrown} times,its color is {sphereC.GetGrey}");
 
 
 
