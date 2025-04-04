@@ -7,8 +7,8 @@ namespace MyRoguelike
     {
 
         private static void Main(string[] args)
-        {   
-
+        {
+            
         }
     }
 }
