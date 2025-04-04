@@ -14,6 +14,7 @@ namespace MyRoguelike
             public string GetName => _name;
             public int Level => 1 + _xp / 1000;
             public float MaxHealth => _Maxhp;
+            public int GetXp => _xp;
             
 
         public Hero(int xp, float health, string name)
@@ -23,14 +24,13 @@ namespace MyRoguelike
                 _name = name;
 
         }
-        public int XP(int xp)
+        public void XP(int xp)
         {
             if (xp > 0)
             {
                 _xp += xp;
                 _xp = 1 + _xp / 1000;
             }
-            return _xp;
 
         }
 
@@ -43,6 +43,15 @@ namespace MyRoguelike
         {
             _health -= damage;
             _xp += (int)damage / 20;
+        }
+
+        public void Health(float health)
+        {
+            _health = _Maxhp;
+            if (_health <= 0)
+            {
+                _health = 0;
+            }
         }
 
 

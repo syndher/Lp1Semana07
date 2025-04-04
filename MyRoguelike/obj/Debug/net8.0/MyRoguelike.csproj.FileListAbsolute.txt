@@ -1,0 +1,15 @@
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.sourcelink.json
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\bin\Debug\net8.0\MyRoguelike.exe
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\bin\Debug\net8.0\MyRoguelike.deps.json
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\bin\Debug\net8.0\MyRoguelike.runtimeconfig.json
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\bin\Debug\net8.0\MyRoguelike.dll
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\bin\Debug\net8.0\MyRoguelike.pdb
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.dll
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\refint\MyRoguelike.dll
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.pdb
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\MyRoguelike.genruntimeconfig.cache
+C:\Users\Miguel\Desktop\Lp1Semana07\Lp1Semana07\MyRoguelike\obj\Debug\net8.0\ref\MyRoguelike.dll
